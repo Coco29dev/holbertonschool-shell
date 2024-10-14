@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod o=g=o+x hello
+chmod go-o+x hello
