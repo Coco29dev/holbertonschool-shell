@@ -1,2 +1,2 @@
 #!/bin/bash
-awk
+while IFS=: read -r username _ _ _ _ home_dir
