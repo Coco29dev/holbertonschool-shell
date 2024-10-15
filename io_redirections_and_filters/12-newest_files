@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1t | grep | head -n 10
+ls -lt --time=mod --group-directories-first | grep | head -n 10 | awk
