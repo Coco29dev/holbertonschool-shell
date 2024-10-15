@@ -1,2 +1,2 @@
 #!/bin/bash
-while IFS=: read -r username _ _ _ _ home_dir
+cat /etc/passwd | cut -d''':''' -f1,6 | sort -t: -k1
