@@ -1,2 +1,2 @@
 #!/bin/bash
-tr | 
+ cut -c1 | tr -d' ' | cut -f1 
